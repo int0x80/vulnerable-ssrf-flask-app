@@ -1,4 +1,3 @@
-import boto3
 import requests
 from flask import *
 
