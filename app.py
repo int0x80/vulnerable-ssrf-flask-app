@@ -4,9 +4,6 @@ from flask import *
 
 app = Flask(__name__)
 
-AWS_ACCESS_KEY_ID = 'AKIAXKODE5SLSHX7XF5A'
-AWS_SECRET_ACCESS_KEY = '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'
-
 
 @app.route('/request')
 def request_url():
